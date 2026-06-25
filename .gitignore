@@ -1,0 +1,35 @@
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Docker Volumes
+docker/postgres/data/
+docker/minio/data/
+docker/pgadmin/
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
