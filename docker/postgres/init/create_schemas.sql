@@ -1,0 +1,10 @@
+-- ==========================================
+-- Smart City Lakehouse
+-- Database Schema Initialization
+-- ==========================================
+
+CREATE SCHEMA IF NOT EXISTS bronze;
+CREATE SCHEMA IF NOT EXISTS silver;
+CREATE SCHEMA IF NOT EXISTS gold;
+CREATE SCHEMA IF NOT EXISTS audit;
+CREATE SCHEMA IF NOT EXISTS metadata;
